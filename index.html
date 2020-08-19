@@ -25,7 +25,7 @@
 <!--            <div class="w3-dropdown-content w3-bar-block w3-card-4">-->
 <!--                <a href="#" class="w3-bar-item w3-button">Merchandise</a>-->
 <!--                <a href="#" class="w3-bar-item w3-button">Extras</a>-->
-<!--                <a href="#" class="w3-bar-item w3-button">Media</a>-->
+                <a href="#" class="w3-bar-item w3-button">Media</a>
 <!--            </div>-->
 <!--        </div>-->
 <!--        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
@@ -82,18 +82,67 @@
 
 <center>
 
+    <h2>doctor who filmed in cardiff</h2>
+    <br>
+    <p>short vidio of doctor who expirince in cardiff including cardif bay area that was Cardiff Bay
+        as it has been used a number of times in Doctor Who and related programmes as a filming location </p>
     <iframe width="420" height="315"
             src="https://www.youtube.com/watch?v=vQGbcaC6akA">
     </iframe>
 
-<!--    <video width="320" height="240" controls>-->
-<!--        <source src="https://www.youtube.com/watch?v=vQGbcaC6akA">-->
-<!--&lt;!&ndash;        <source src="movie.ogg" type="video/ogg">&ndash;&gt;-->
-<!--        Your browser does not support the video tag.-->
-<!--    </video>-->
+
+    <a href="https://www.youtube.com/watch?v=vQGbcaC6akA">link to vidio if it gets blocked</a>
+
+
 
 </center>
 
 
+<audio controls>
+    <source src="531032__inframatico__birds-river-1.wav" type="audio/wav">
+    Your browser does not support the audio element.
+</audio>
+
+
+<!--<button onclick="audiofunction()">Click 4 audio</button>-->
+
+
+<script>
+
+    // function audiofunction() {
+    //     var x = document.getElementById("myAudio");
+    //
+    //     function playAudio() {
+    //         x.play();
+    //     }
+    //
+    //     function pauseAudio() {
+    //         x.pause();
+    //     }
+    // }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
 
 </body>
+
+
+
+</html>
